@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#convert {
+    background-color: #ef8d1c;
+  }
+  #convert:hover {
+    background-color: #7668c7;
+  }
+  h1 {
+    font-family: sans-serif;
+    color:rgb(36, 241, 29);
+  }
+  input {
+    display:block;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 2.2em;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: rgb(135, 118, 118);
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: #ccc;  
+ }
+ :-ms-input-placeholder {  
+    color: #ccc;  
+ }
+ button {
+   padding: 10px;
+   font-size: 1.5em;
+   color: rgb(52, 66, 52);
+ }
